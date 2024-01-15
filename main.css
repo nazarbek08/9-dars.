@@ -1,0 +1,104 @@
+.wer {
+    grid-area: wer;
+    background-color: rgb(0, 255, 229);
+    background-image: url(./777.jpg);
+    border-radius: 20px;
+}
+
+.wer0 {
+    grid-area: wer0;
+    background-color: rgb(98, 255, 0);
+    background-image: url(./777.jpg);
+    border-radius: 20px;
+}
+
+.wer1 {
+    grid-area: wer1;
+    background-color: rgb(255, 225, 0);
+    background-image: url(./777.jpg);
+    border-radius: 20px;
+}
+
+.wer2 {
+    grid-area: wer2;
+    background-color: rgb(255, 145, 0);
+    background-image: url(./777.jpg);
+    border-radius: 20px;
+}
+
+.wer3 {
+    grid-area: wer3;
+    background-color: black;
+    background-image: url(./777.jpg);
+    border-radius: 20px;
+}
+
+.wer4 {
+    grid-area: wer4;
+    background-color: rgb(155, 71, 71);
+    background-image: url(./777.jpg);
+    grid-template-areas: "qaz" "qaz";
+    border-radius: 20px;
+}
+
+
+
+.wer5 {
+    grid-area: wer5;
+    background-color: rgb(255, 0, 0);
+    background-image: url(./777.jpg);
+    border-radius: 20px;
+}
+
+.wer6 {
+    grid-area: wer6;
+    background-color: rgb(167, 101, 101);
+    background-image: url(./777.jpg);
+    border-radius: 20px;
+}
+
+.bot {
+    display: grid;
+    grid-area: bot;
+    grid-template-areas: "wer"
+        "wer"
+        "wer0";
+    grid-gap:  10px;
+
+}
+
+.bot0 {
+    display: grid;
+    grid-area: bot0;
+    grid-template-areas: "wer1"
+        "wer2"
+        "wer2";
+
+    grid-gap:  10px;
+
+}
+
+.bot1 {
+    display: grid;
+    grid-area: bot1;
+    grid-template-areas: "wer3 wer3"
+     "wer4 wer5"
+      "wer6 wer6";
+    grid-gap:  10px;
+    
+
+
+
+
+}
+
+.box {
+    max-width: 1000px;
+    height: 700px;
+    background-color: rgb(225, 225, 225);
+    margin: 0 auto;
+    display: grid;
+    border: 1px black;
+    grid-template-areas: "bot bot0 bot1 ";
+    grid-gap:  10px;
+}
